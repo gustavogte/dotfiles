@@ -1,0 +1,21 @@
+[user]
+	name = gustavogte
+	email = gustavogte@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	push = HEAD
+[alias]
+fetch = git fetch --tags
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[color]
+	ui = auto
