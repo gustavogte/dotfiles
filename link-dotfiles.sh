@@ -36,4 +36,7 @@ link ".config" ".config"
 link ".nano" ".nano"
 link ".vscode" ".vscode"
 
+# Claude Code
+link ".claude/settings.json" ".claude/settings.json"
+
 echo "✅ Dotfiles symlinked. Backup saved to $BACKUP_DIR"
